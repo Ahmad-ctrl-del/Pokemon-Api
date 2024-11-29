@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.Header{
+    background-color: #e0f7f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+.SearchIcon{
+    background-color: #0096ff;
+    width: 40px;
+    height: 40px;
+    margin-right: 25vw;
+}
+.Img{
+    max-width: 25vw;
+    max-height: 25vh;
+    margin-right: 10vw;
+    margin-left: 15vw;
+}
+.Input{
+    width: 21vw;
+    height: 6vh;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.Section1{
+    padding: 10px;
+    max-width: 40vw;
+    max-height: 30vh;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 65vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.SubSection{
+    display: flex;
+    padding: 7px;
+    margin-left: 25vh;
+}
+.Section2{
+    max-width: 22vw;
+    max-height: 40vh;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10vh;
+}
+.PokemonImage{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 5px;
+    max-width: 20vw;
+    max-height: 20vh;
+}
+.App{
+    margin-top: -30vh;
+}
+.paragrapgh{
+    font-size: small;
+    font-weight: bold;
+}
+.Parent{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+}
